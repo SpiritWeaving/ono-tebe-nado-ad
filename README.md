@@ -1,1 +1,1 @@
-git@github.com:SpiritWeaving/ono-tebe-nado-ad.git
+https://github.com/SpiritWeaving/ono-tebe-nado-ad
