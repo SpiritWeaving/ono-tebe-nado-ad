@@ -194,10 +194,8 @@ address{
 .about{
     display: grid;
     grid-template-rows: 240px 1fr;
-    grid-template-columns: 240px 1fr;
-    column-gap: 72px;
-    /* margin-top: 120px; */
-    /* margin-bottom: 180px; */
+    grid-template-columns: min-content 1fr;
+    column-gap: 72px;    
 }
 
 .title-column{
@@ -219,6 +217,10 @@ address{
 }
 
 /*Лого*/
+.logo-column{
+    margin-left: 47px;
+}
+
 .logo-black img{
     margin: auto;
     width: 148px;
