@@ -43,16 +43,23 @@ address{
 /*Обложка*/
 .top{
     text-align: left;    
+    padding-bottom: 20px;
 }
 
 .middle{    
     text-align: center;    
+    padding-bottom: 20px;
 }
 
 .bottom{    
-    text-align: right;
-    /* margin-right: 50px; */
+    text-align: right;  
 }
+
+.last-letter{ 
+    letter-spacing: 0;  
+    text-align: left;  
+}
+
 
 .title-block{    
     display: block;
@@ -77,15 +84,13 @@ address{
 }
 
 .cover{   
-    padding: 50px;
-    /* gap: ; */
+    padding: 50px;    
     background-image: url("../images/cover.jpg");
     background-size: cover;
     position: relative;   
     display: flex;  
     flex-direction: column; 
-    align-items: center;
-    justify-content: space-around;
+    align-items: center;    
     z-index: 0;    
 }
 
@@ -101,7 +106,7 @@ address{
 
 .description{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
     position: relative;   
