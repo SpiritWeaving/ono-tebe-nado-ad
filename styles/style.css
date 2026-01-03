@@ -3,6 +3,11 @@ html{
     scroll-behavior: smooth;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .header{
     display: grid;
@@ -82,6 +87,7 @@ html{
 }
 
 .cover{   
+    width: 100%;
     padding: 165px 50px 50px;    
     background-image: url("../images/cover.jpg");
     background-size: cover;
