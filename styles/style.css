@@ -52,7 +52,7 @@ html{
 .aligned__text{
     display: block;
     margin-top: 20px;
-    line-height: 115%;
+    line-height: 1;
 }
 .aligned__text-center{    
     text-align: center;   
