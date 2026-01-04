@@ -211,7 +211,7 @@ html{
     justify-content: space-between;
     /* gap: 0px;   */
     padding: 155px 0px;
-    margin-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .about-column{
@@ -262,9 +262,11 @@ html{
 
 .footer__address{
     justify-self: start;
+    font-size: 18px;
 }
 
 .footer__links-list{
+    font-size: 18px;
     list-style: none;
     text-align: center;
     width: max-content;
