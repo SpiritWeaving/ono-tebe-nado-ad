@@ -54,6 +54,11 @@ html{
     margin-top: 20px;
     line-height: 115%;
 }
+
+.aligned__text-left{ 
+    margin-top: 0;
+}
+
 .aligned__text-center{    
     text-align: center;   
 }
@@ -143,13 +148,18 @@ html{
     justify-content: center;    
 }
 
-.lots__list-item-link{
-    text-decoration: none;    
-}
-
-.card{    
+.lots__list-item{
     width: 334px; 
     min-height: 596px;
+}
+
+.lots__list-item-link{
+    text-decoration: none;   
+    height: 100%; 
+}
+
+.card{   
+    height: 100%;
     padding: 48px 40px;
     color: #fff;
     position: relative; 
@@ -185,7 +195,7 @@ html{
 }
 
 .more-button{    
-    margin-left: 40px;
+    margin-left: 64px;
     font-size: 20px;
     display: inline-block;  
     text-decoration: none;
@@ -197,7 +207,7 @@ html{
 
 .about{
     display: grid;
-    grid-template-columns: 334px 1fr;
+    grid-template-columns: 380px 1fr;
     justify-content: space-between;
     gap: 25px;  
     padding: 155px 0px;
