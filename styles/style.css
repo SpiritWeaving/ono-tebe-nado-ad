@@ -79,8 +79,7 @@ html{
     margin-bottom: 106px;
 }
 
-.cover{   
-    width: 100%;
+.cover{  
     padding: 165px 50px 50px;    
     background-image: url("../images/cover.jpg");
     background-size: cover;
@@ -201,7 +200,7 @@ html{
     grid-template-columns: 334px 1fr;
     justify-content: space-between;
     gap: 25px;  
-    padding: 155px 50px;
+    padding: 155px 0px;
     margin-bottom: 25px;
 }
 
