@@ -209,9 +209,9 @@ html{
     display: grid;
     grid-template-columns: 380px 1fr;
     justify-content: space-between;
-    gap: 25px;  
+    /* gap: 0px;   */
     padding: 155px 0px;
-    margin-bottom: 25px;
+    margin-bottom: 55px;
 }
 
 .about-column{
